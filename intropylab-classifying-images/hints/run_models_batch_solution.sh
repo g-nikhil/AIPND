@@ -9,6 +9,6 @@
 #
 # Usage: sh run_models_batch_solution.sh  -- will run program from commandline
 #  
-python check_images_solution.py --dir pet_images/ --arch resnet  --dogfile dognames.txt > resnet_solution.txt
-python check_images_solution.py --dir pet_images/ --arch alexnet  --dogfile dognames.txt > alexnet_solution.txt
-python check_images_solution.py --dir pet_images/ --arch vgg  --dogfile dognames.txt > vgg_solution.txt
+python check_images_solution.py --dir pet_images/ --arch resnet  --dogfile dognames.txt > results/resnet_solution.txt
+python check_images_solution.py --dir pet_images/ --arch alexnet  --dogfile dognames.txt > results/alexnet_solution.txt
+python check_images_solution.py --dir pet_images/ --arch vgg  --dogfile dognames.txt > results/vgg_solution.txt
